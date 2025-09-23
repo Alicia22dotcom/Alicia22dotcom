@@ -84,8 +84,14 @@ Please do take time to visit the following websites below.;
 
 <body>
 
-<li><a href="http://www.icuzambia.net">ICU Zambia</a></li>
-<li><a href="http://www.zrdc.org">ZRDC</a></li>
+<li><a href="Sponsored
+Education.com
+https://www.education.com
+Education.com - Fun Online Learning for Kids">Fun Online Learning for kids</a></li>
+<li><a href="Sponsored
+Kooky Kids World
+https://www.kookykidsworld.com
+Free Children's Stories - Read Stories to Kids">Kooky Kids World</a></li>
 
 
 <span class="copyright 2021"><h4>All Rights Reserved.Designed and Maintained by Alice Malaika</h4>
