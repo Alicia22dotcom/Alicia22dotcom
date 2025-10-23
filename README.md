@@ -1,129 +1,120 @@
+# Keep Fit App
 
+A full-stack TypeScript fitness tracking application built with the T3 stack (React, tRPC, Firebase) organized as a monorepo.
 
+## 🏗️ Architecture
 
-<html>
+- **Frontend**: React + Vite + TypeScript
+- **UI**: shadcn/ui + Tailwind CSS
+- **State Management**: TanStack Query
+- **Backend**: Firebase Cloud Functions (Gen 2)
+- **API**: tRPC for type-safe client-server communication
+- **Database**: Firebase Firestore
+- **Monorepo**: PNPM workspaces + Turborepo
 
-<head>
-<!---created by Alice Malaika---->
-<link rel="stylesheet" href="main" type="text/css">
-</head>
-<title>
-Chalala Kids Library
-</title>
-<body link="#ccc" Vlink="yellow" alink="blue">
-<hr width="100%" border="3" noshade size="10" color="black">
-<table border="0" width="100%" cellpadding="24" bordercolor="green">
-<tr>
-<td width="30%" border="2" bgcolor="#00099" Vspace="5" Hspace="12" background="graphics/1.gif"></td>
-<td background="graphics/8.jpeg" ><font face="verdana" size="+3" color="#ccc">CHALALA KIDS LIBRARY,
-<br> WELCOME TO THE NAVIGATIONAL webLINK</font>
-</td>
-<td width="15%" background="graphics/8.jpeg" align="right"><font face="jokerman" size="+5"><p style ="color:red;">CHALALA KIDS LIBRARY</style></font><br><cite><font color="white">&copy:2021,
-Created by Alice Malaika</cite></font><p><font face="arial" size="2" color="#000"><u><b>Welcoming the community to the new Chalala kids library <br>inviting parents and Guardiansto sign in their children</br>for varies activities which include</br></b></u></font></td>
-</tr>
-</table>
-<table border="1" width="100%"Cellpadding="0" bgcolor="Black">
-<tr>
-<td><font face="Arial"><center><a href="Home.html" style="text-decoration:none;">Home</a></center></td>
-<td><font face="Arial"><center><a href="Register.html" style="text-decoration:none;">Register</a></center></font></td>
-<td><font face="Arial"><center><a href="Books.html" style="text-decoration:none;">Books</a></center></font></td>
-<td><font face="Arial"><center><a href="Sing in.html" style="text-decoration:none;">Sgin In</a></center></font></td>
-<td><font face="Arial"><center><a href="Contact Us.html" style="text-decoration:none;">Contact Us</a></center></font></td>
-</tr>
-</table>
-<table border="0" width="100%" bgcolor="pink" cellspacing="4">
-<tr>
-<td></td>
-</tr>
-<table border="0" width="100%" BGCOLOR="yellow" cellspacing="4">
-<tr>
-<td width="20%"></td>
-<td></td>
-</tr>
-</table><hr width="100%">
-<table border="0" width="100%" cellpadding="30" cellspacing="0">
-<tr>
-<td bgcolor="#001" align="center" width="15%"><font face="arial" size="5" color="white">Coming<br>to a town<br>near you!!</font><p><font face="arial" Size="-1"><a href="Northmead.html" style="text-decoration:none;">Educational books</a><p>
-<a href="Olympia.html" style="text-decoration:none;">Academic books</a><p>
-<a href="Rhodes park.html" style="text-decoration:none;">Tuitorials</a><p><a href="Ibex hill.html"></a><p><a href="Kabulonga.html" style="text-decoration:none;">Kabulonga</a><p>
-<a href="Chilenje.html"style="text-decoration:none;">Alphabetic books</a><p><a href="Kabwata.html" style="text-decoration:none;" >Sketch books</a><p>
-<a href="Chelstone.html"style="text-decoration:none;">Number books</a></font><p><hr size="4" width="80"><img src="graphics/flag.jpg" width="80"><p><font color="#009">When in doubt go to the library</font></td>
-<td bgcolor="#eee"><font face="verdana" size="+3">KIDS LIBRARY HOME PAGE</font><img src="Graphics/6.jpg" border="8" bordercolor="Orange" height="400" width="500" Vspace="20" Hspace="12" align="right" alt="Lusaka City"><p>
-<font color="#000"><u>KIDS LIBRARY, ENJOY YOUR STAY AND FEEL AT HOME</u></font><p>
-<img src="graphics/4.jpg" border="8" alt="Kids" Vspace="4" Hspace="12" border="1" width="400" height="250">
-<p>
-<font face="verdana" size="4" color="#000">This is a web page for the kids in the community and of course the neighboring kids,<br> you might want to visit this new library the soul purpose of the library is to help improve each and every child in curriculium activities and learn computer skills to<br> fully equiped the future generation education wise.</font><p>
-</td>
-</table><hr width="100%" size="10" noshade color="green" border="1">
-<table border="0" cellpadding="13" cellspacing="2" align="right" bordercolor="amber" width="48%">
-<tr> 
-<td bgcolor="teal"><a href="Culture and Tradition.html">SHAPING THE CHILDREN FOR A BETTER FUTURE</a><br>Come through with your kids and let them enjoy reading,writing as well as learn in skill in Art<br><font color="white">Click to see and learn more</font></td>
-</tr>
-<tr>
-<td bgcolor="black"><font color="white" size="4"><marquee>FOR EDUCATIONAL AND ACADEMIC GOALS......CHALALA KIDS LIBRARY!!!</marquee></font></td>
-</tr>
-<table border="0" width="52%" cellpadding="30" cellspacing="2">
-<tr>
-<td width="18%"background="graphics/seven.jpg" align="Top"><font face="verdana" color="red"><h1>Reading and Writing skills</h1><font color="white" size="4">Revealing new books from the western world</font>@| www.Kidsbooks.com | <font color="white" size="2"><a href="GreenIcon.html">Click</a> for more details>>>>>>></font></td>
-<td width="5%"background="graphics/power.jpeg"><a href="art and technology.html"></a></td>
-</tr>
-<table vspace="5" cellspacing="1" border="0" width="100%">
-<tr>
-<td bgcolor="#eee"><font face="verdana" size="3" color="#000">Chalala Kids Library will be well equiped tutors with best qualifications from the best universities across the world, our tutors are specialized in Kids Academics,teaches both reading and writing skills, good pronounces of words as well as fluent in english speaking </font><p>
-<img src="graphics/optimus keyboard.gif" width="200" height="110" border="3"><img src="graphics/hand.jpg" width="200" height="110" border="3" hspace="12"><img src="graphics/apple.jpg" width="200" height="110" border="3" color="blue" hspace="12"><br><font color="black" size="4">SpeedTech</font><p><font size="4">
-For exqusite and proffesional home design which only Balin Home design can offer for that best and most attractive home setup to give you the best comfort both inside and outside your home visit our page for more details.@ <a href="BalinhOme.html">BalinhOme.com</a><br>
-we offer both interior and exterior home design and for that extra perfection for your home you can follow us@<a href="BooksStudio.html"> BooksStudio.com</a></font><br><img src="graphics/42.jpg" width="200" height="100" border="4">
-<img src="graphics/1.jpg" width="200" height="100" border="4" hspace="12"><img src="graphics/130.jpg" width="200" height="100" border="4" hspace="12"><img src="graphics/home.jpg" width="200" height="100" border="4" hspace="12"><p><font color="black" size="4">
-For the best in news and latest upadates covering all ethnicity both local and internation news from political to entertainment with the latest in social media only @ SwiftmeDia.co.zm see it now for all the latest in news,sports and entertainment and many more.
+## 📁 Project Structure
 
+```
+├── apps/
+│   └── web/                 # React frontend
+├── functions/               # Firebase Cloud Functions + tRPC
+├── packages/
+│   └── shared/              # Shared Zod schemas and types
+├── docs/                    # Project documentation
+└── firebase.json           # Firebase configuration
+```
 
-<br>
-Please do take time to visit the following websites below.;
-</br>
+## 🚀 Getting Started
 
+### Prerequisites
 
-<body>
+- Node.js 18+
+- PNPM 8+
+- Firebase CLI
 
-<li><a href="Sponsored
-Education.com
-https://www.education.com
-Education.com - Fun Online Learning for Kids">Fun Online Learning for kids</a></li>
-<li><a href="Sponsored
-Kooky Kids World
-https://www.kookykidsworld.com
-Free Children's Stories - Read Stories to Kids">Kooky Kids World</a></li>
+### Installation
 
+1. **Install dependencies:**
+   ```bash
+   pnpm install
+   ```
 
-<span class="copyright 2021"><h4>All Rights Reserved.Designed and Maintained by Alice Malaika</h4>
+2. **Set up Firebase:**
+   ```bash
+   firebase login
+   firebase init
+   ```
 
+3. **Configure environment:**
+   ```bash
+   cp .env.example .env
+   # Edit .env with your Firebase project details
+   ```
 
-</font></td>
+4. **Start development servers:**
+   ```bash
+   # Start Firebase emulators
+   firebase emulators:start
+   
+   # In another terminal, start the frontend
+   pnpm dev
+   ```
 
+### Available Scripts
 
+- `pnpm dev` - Start all development servers
+- `pnpm build` - Build all packages
+- `pnpm lint` - Lint all packages
+- `pnpm typecheck` - Type check all packages
+- `pnpm test` - Run tests
 
+## 🎯 Features
 
+### Phase 1: Foundation & Authentication ✅
+- [x] Monorepo setup with PNPM workspaces
+- [x] React + Vite frontend
+- [x] Firebase Cloud Functions backend
+- [x] tRPC API layer
+- [x] Authentication system
+- [x] shadcn/ui components
 
+### Phase 2: Vitals Tracking (Current)
+- [x] Weight logging schema and API
+- [x] Weight logging form component
+- [ ] Blood pressure tracking
+- [ ] Sleep tracking
+- [ ] Heart rate tracking
+- [ ] Dashboard with charts
 
+### Phase 3: Workout Logging
+- [ ] Workout data modeling
+- [ ] Workout logging API
+- [ ] Complex workout logger UI
+- [ ] Workout history and PRs
 
-<style>
-    
-body {background-color: white;}
-h1   {color: blue;}
-h1   {margin: bottom;}
-p    {color: purple;}
+### Phase 4: Polish & Deployment
+- [ ] Accessibility improvements
+- [ ] End-to-end testing
+- [ ] Internationalization
+- [ ] CI/CD pipeline
+- [ ] Production deployment
 
-</style>
+## 🔧 Development
 
+### Adding New Features
 
+1. **Define schemas** in `packages/shared/src/schemas.ts`
+2. **Create tRPC procedures** in `functions/src/routers/`
+3. **Add client hooks** in `apps/web/src/hooks/`
+4. **Build UI components** in `apps/web/src/components/`
 
+### Code Style
 
-</tr>
-<tr>
-<td bgcolor="black">content</td>
-</table>
-</body>
-</html>
-<!---
-Alicia22dotcom/Alicia22dotcom is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+- TypeScript strict mode
+- ESLint + Prettier
+- Conventional commits
+- Zod for validation
+
+## 📝 License
+
+MIT License - see LICENSE file for details.
